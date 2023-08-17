@@ -17,8 +17,8 @@ export default function Navbar(props) {
       href: "/"
     },
     {
-      label: "About",
-      href: "/about"
+      label: "Portfolio",
+      href: "https://tckiprotich.tech"
     },
     {
       label: "Contact",
@@ -28,20 +28,16 @@ export default function Navbar(props) {
 
   const rightmenu = [
     {
-      label: "Archive",
+      label: "Blogs",
       href: "/archive"
     },
     {
-      label: "Pro Version",
-      href: "https://stablo-pro.web3templates.com/",
+      label: "Github",
+      href: "https://github.com/blog",
       external: true,
       badge: "new"
     },
-    {
-      label: "Download",
-      href: "https://web3templates.com/templates/stablo-minimal-blog-website-template",
-      external: true
-    }
+    
   ];
 
   const mobilemenu = [...leftmenu, ...rightmenu];
@@ -100,7 +96,7 @@ export default function Navbar(props) {
                       />
                     ) : (
                       <span className="block text-center">
-                        Stablo
+                        IPHURTS
                       </span>
                     )}
                   </Link>
